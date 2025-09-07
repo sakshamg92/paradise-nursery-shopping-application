@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.category-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.category-titlle{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem;
+    border-top: .1rem solid black;
+    border-bottom: .1rem solid black;
+}
+.plants-container{
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 100%;
+    height: 100%;
+}
